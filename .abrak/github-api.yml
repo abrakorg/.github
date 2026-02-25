@@ -1,0 +1,19 @@
+version: '1.0'
+generated_at: '2026-02-25T20:42:09Z'
+repo:
+  slug: abrakorg-org-profile
+  local_path: /root/work/abrakorg-org-profile
+  kind: governance
+  status: active
+  url: https://github.com/abrakorg/.github
+  legacy_slugs: []
+github:
+  owner: abrakorg
+  repo: .github
+  api_base: https://api.github.com
+  api_repo_endpoint: /repos/abrakorg/.github
+integration:
+  central_registry: https://github.com/abrakorg/abrak-datacenter-ops/tree/main/registry
+  docs_fa: https://github.com/abrakorg/abrak-datacenter-ops/blob/main/docs/fa/10-github-api-harmony.md
+  docs_en: https://github.com/abrakorg/abrak-datacenter-ops/blob/main/docs/en/10-github-api-harmony.md
+  docs_ar: https://github.com/abrakorg/abrak-datacenter-ops/blob/main/docs/ar/10-github-api-harmony.md
