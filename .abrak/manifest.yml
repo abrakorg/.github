@@ -1,0 +1,76 @@
+manifest_version: "1.0"
+repo:
+  slug: "abrakorg-org-profile"
+  title_fa: "پروفایل سازمانی گیت‌هاب ابرک"
+  title_en: "Abrak GitHub Organization Profile"
+  kind: "governance"
+  owner: "abrakorg"
+  status: "active"
+  visibility: "public"
+  primary_language: "other"
+  secondary_languages: ["markdown"]
+  description_fa: "قالب‌ها و استانداردهای مشارکت در سطح سازمان"
+  description_en: "Org-level templates and contribution standards"
+runtime:
+  deployment_style: "managed"
+  domains: []
+  envs: ["dev","stage","prod"]
+  data_stores: []
+  secrets_policy:
+    rule: "No secrets in repo; use secret manager"
+  backup_policy:
+    required: true
+    notes: "Git is canonical backup"
+safety:
+  red_lines: ["PC.HAIDA.CO","CRM.HAIDA.CO"]
+  never_touch_rules:
+    - "Repository-only governance changes"
+  allowed_actions:
+    - "Template and documentation updates"
+  change_control:
+    requires_adr: true
+    requires_backup_before_migration: true
+abrak_integration:
+  role: "producer"
+  auth:
+    required: false
+    model: "single_sign_on"
+    token_type: "access_token"
+  entitlements:
+    uses_plans: false
+    uses_licenses: false
+    uses_feature_flags: false
+  events:
+    produces: []
+    consumes: []
+  billing:
+    usage_metering: false
+    pricing_model: "subscription"
+  audit:
+    required: true
+    retention_days: 365
+dependencies:
+  repos:
+    - slug: "abrak-co"
+      relation: "governance"
+  external_services: []
+documentation:
+  primary_docs:
+    - id: "DOC-ORG-001"
+      fa: "docs/fa/overview.md"
+      en: "docs/en/overview.md"
+      ar: "docs/ar/overview.md"
+  runbooks: []
+  adr_index:
+    fa: "docs/fa/"
+    en: "docs/en/"
+    ar: "docs/ar/"
+release:
+  versioning: "semantic"
+  current_version: "0.1.0"
+  release_channels: ["dev","stable"]
+  ci_required: true
+contact:
+  technical_owner: "platform-governance"
+  product_owner: "abrak-platform"
+  support_notes: "Org profile and templates"
