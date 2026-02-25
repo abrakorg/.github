@@ -35,7 +35,7 @@ Abrak is the central governance layer for:
 ## Developer Start (VS Code Tunnel)
 Use the server-side workspace and shell shortcuts after tunnel login:
 - Workspace: `/root/work/abrakorg.code-workspace`
-- Core repos: `/root/work/*`, `/root/odoo-v2`
+- Core repos: `/root/work/*`, `/root/work/abrak-odoo`
 
 ## Language
 - Persian-first operational context
