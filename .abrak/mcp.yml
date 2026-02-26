@@ -1,0 +1,20 @@
+version: '1.0'
+repo:
+  slug: abrakorg-org-profile
+  kind: governance
+  status: active
+  local_path: /root/work/abrakorg-org-profile
+  github:
+    owner: abrakorg
+    repo: .github
+    url: https://github.com/abrakorg/.github
+mcp:
+  profile: abrak-standard
+  servers:
+  - abrak-platform
+  - filesystem-abrak
+  - sequential-thinking
+  - github-abrakorg
+  canonical_registry: abrak-datacenter-ops:registry/mcp.yml
+  bootstrap_script: abrak-datacenter-ops:scripts/platform/mcp-bootstrap.sh
+  healthcheck_script: abrak-datacenter-ops:scripts/platform/mcp-healthcheck.sh
