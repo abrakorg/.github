@@ -22,7 +22,7 @@ runtime:
     required: true
     notes: "Git is canonical backup"
 safety:
-  red_lines: []
+  red_lines: ["abrak.org", "mx1.abrak.org"]
   never_touch_rules:
     - "Repository-only governance changes"
   allowed_actions:
