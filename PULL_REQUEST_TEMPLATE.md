@@ -34,8 +34,6 @@
 - [ ] `.abrak/manifest.yml` updated (if repo metadata changed)
 - [ ] `.abrak/service-contract.yml` updated (if service contract changed)
 - [ ] Registry/docs updated in `ABRAK_CO_DATACENTER` (if integration changed)
-- [ ] No operational action touched `PC.HAIDA.CO`
-- [ ] No operational action touched `CRM.HAIDA.CO`
 
 ## Notes | توضیحات تکمیلی
 - Anything reviewers/operators must know before merge
