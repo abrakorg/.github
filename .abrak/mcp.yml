@@ -3,7 +3,6 @@ repo:
   slug: abrakorg-org-profile
   kind: governance
   status: active
-  local_path: /root/work/abrakorg-org-profile
   github:
     owner: abrakorg
     repo: .github
