@@ -8,5 +8,3 @@ Report sensitive findings privately to organization owners. Do not open public i
 
 ## Red Lines
 No direct operational changes on:
-- `PC.HAIDA.CO`
-- `CRM.HAIDA.CO`
