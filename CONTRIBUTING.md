@@ -39,7 +39,5 @@ Examples:
 
 ## Abrak Red Lines (Operational)
 Never perform direct operational actions on:
-- `PC.HAIDA.CO`
-- `CRM.HAIDA.CO`
 
 If a task might affect them, stop and separate the environment first.
