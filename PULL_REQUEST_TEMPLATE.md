@@ -33,7 +33,9 @@
 - [ ] No direct push to `main` (branch + PR workflow used)
 - [ ] `.abrak/manifest.yml` updated (if repo metadata changed)
 - [ ] `.abrak/service-contract.yml` updated (if service contract changed)
-- [ ] Registry/docs updated in `ABRAK_CO_DATACENTER` (if integration changed)
+- [ ] Registry/docs updated in `abrak-datacenter-ops` (if integration changed)
+- [ ] No operational action touched `abrak.org` (production SaaS / tenant data)
+- [ ] No operational action touched `mx1.abrak.org` (production mail gateway)
 
 ## Notes | توضیحات تکمیلی
 - Anything reviewers/operators must know before merge
