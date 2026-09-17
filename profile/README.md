@@ -1,42 +1,66 @@
 <div align="center">
 
-# ABRAK
-### Identity and Event Center for the Holding Ecosystem
+# ابرک · Abrak
 
-<p>
-  <img alt="Org" src="https://img.shields.io/badge/Org-abrakorg-c3b97f?style=for-the-badge">
-  <img alt="Model" src="https://img.shields.io/badge/Model-Identity%20%26%20Events-0f1f38?style=for-the-badge">
-  <img alt="Status" src="https://img.shields.io/badge/Status-Operational-2e7d32?style=for-the-badge">
-</p>
+**اودو ۱۹، بومی‌سازی‌شده برای ایران**
+**Odoo 19, localized for Iran**
+
+[**abrak.org**](https://abrak.org) · [مستندات](https://github.com/abrakorg/abrak-docs) · [Documentation](https://github.com/abrakorg/abrak-docs/tree/main/en)
 
 </div>
 
-## About Abrak
-Abrak is the central governance layer for:
-- identity and access
-- plans, licenses, entitlements
-- usage and event collection
-- central commands to connected services
-- billing and audit orchestration
+---
 
-## Core Repositories
-- `ABRAK_CO_DATACENTER` - governance, registry, standards, safe ops documentation
-- `filament-3` - Abrak Hub (Filament)
-- `odoo-v2` - CRM/ERP Odoo service line
-- `abrak-connector-php` - PHP connector contract scaffold
-- `abrak-connector-python` - Python connector contract scaffold
+## فارسی
 
-## Engineering Rules (Short)
-- No direct operational action on `PC.HAIDA.CO`
-- No direct operational action on `CRM.HAIDA.CO`
-- Repository-first changes must be reversible and documented
-- Hub and Odoo remain integrated under a single platform model
+ابرک یک پلتفرم SaaS بر پایهٔ **اودو ۱۹** است که برای کسب‌وکارهای ایرانی بومی‌سازی شده — نه ترجمه‌ی سطحی، بلکه تطبیق واقعی با الزامات حسابداری، مالیاتی و ارتباطی ایران.
 
-## Developer Start (VS Code Tunnel)
-Use the server-side workspace and shell shortcuts after tunnel login:
-- Workspace: `/root/work/abrakorg.code-workspace`
-- Core repos: `/root/work/*`, `/root/work/abrak-odoo`
+**چه چیزی را پوشش می‌دهیم**
 
-## Language
-- Persian-first operational context
-- English-compatible engineering documentation
+| حوزه | توضیح |
+|---|---|
+| حسابداری ایران | دفاتر قانونی، ساختار حساب‌ها و گزارش‌های منطبق با استاندارد داخلی |
+| سامانهٔ مؤدیان | ارسال صورتحساب الکترونیکی به سامانهٔ مالیاتی |
+| تقویم شمسی | جلالی در سراسر سیستم، نه فقط در نمایش |
+| پیامک | یکپارچگی با پنل‌های پیامکی ایرانی |
+| تلفن ابری | مرکز تماس و VoIP با اپراتورهای داخلی |
+| درگاه پرداخت | اتصال به درگاه‌های بانکی ایران |
+| حمل‌ونقل | اتصال به شرکت‌های پست و پیک داخلی |
+| فروشگاه‌ساز | اتصال به ووکامرس و بازارگاه‌های ایرانی |
+
+**راست‌به‌چپ واقعی.** رابط کاربری، گزارش‌ها و اسناد چاپی همگی برای فارسی طراحی شده‌اند.
+
+---
+
+## English
+
+Abrak is an **Odoo 19** based SaaS platform localized for Iranian businesses. Localization here means regulatory and infrastructural adaptation — Iranian accounting standards, electronic tax invoicing, the Jalali calendar as a first-class citizen, and integration with domestic SMS, telephony, payment and logistics providers — not just a translated interface.
+
+**What we build**
+
+- Iranian statutory accounting and reporting for Odoo
+- Electronic invoicing for the national tax system (Moadian)
+- Jalali calendar throughout the stack, not merely in display widgets
+- Connectors for domestic SMS panels, VoIP operators, payment gateways and couriers
+- Genuine right-to-left support across UI, reports and printed documents
+
+---
+
+## مستندات · Documentation
+
+مستندات رسمی در چهار زبان منتشر می‌شود:
+Official documentation is published in four languages:
+
+**[فارسی](https://github.com/abrakorg/abrak-docs/tree/main/fa)** · **[English](https://github.com/abrakorg/abrak-docs/tree/main/en)** · **[العربية](https://github.com/abrakorg/abrak-docs/tree/main/ar)** · **[پښتو](https://github.com/abrakorg/abrak-docs/tree/main/ps)**
+
+---
+
+## ارتباط · Contact
+
+- وب‌سایت · Website — [abrak.org](https://abrak.org)
+- پشتیبانی · Support — support@abrak.org
+- فروش · Sales — hello@abrak.org
+
+<div align="center">
+<sub>ساخته‌شده در ایران · Built in Iran</sub>
+</div>
