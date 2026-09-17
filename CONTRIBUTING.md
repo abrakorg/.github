@@ -8,7 +8,7 @@ This organization uses a local-first workflow because GitHub branch protections/
 - Prefer squash merge.
 - Do not commit secrets, tokens, passwords, or private keys.
 - Update `.abrak/manifest.yml` and `.abrak/service-contract.yml` when contracts/ownership/runtime behavior change.
-- If integration contracts change, update `ABRAK_CO_DATACENTER/registry/*`.
+- If integration contracts change, update `abrak-datacenter-ops/registry/*`.
 
 ## Branch Naming
 - `feat/<area>-<short-topic>`
@@ -39,5 +39,8 @@ Examples:
 
 ## Abrak Red Lines (Operational)
 Never perform direct operational actions on:
+
+- `abrak.org` — production SaaS and tenant databases
+- `mx1.abrak.org` — production mail gateway
 
 If a task might affect them, stop and separate the environment first.
