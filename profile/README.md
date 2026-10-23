@@ -1,66 +1,152 @@
 <div align="center">
 
-# ابرک · Abrak
+# ابرک · Abrak · أبرك · Abrak
+### شرکت پردازش راهکارهای هوشمند کسب‌وکار · ABRAK CO
 
-**اودو ۱۹، بومی‌سازی‌شده برای ایران**
-**Odoo 19, localized for Iran**
+**پلتفرم ابری راهکارهای سازمانی (ERP) بر پایهٔ اودو ۱۹ و نکس‌ای‌آرپی**  
+**Enterprise Cloud ERP Platform Powered by Odoo 19 & NexERP**  
+**منصة سحابية متطورة لتخطيط موارد المؤسسات قائمة على أودو 19 ونكس إي آر بي**  
+**Odoo 19 ve NexERP Tabanlı Kurumsal Bulut ERP Platformu**
 
-[**abrak.org**](https://abrak.org) · [مستندات](https://github.com/abrakorg/abrak-docs) · [Documentation](https://github.com/abrakorg/abrak-docs/tree/main/en)
+[**abrak.org**](https://abrak.org) · [**zdr.ir**](https://zdr.ir) · [**Documentation**](https://github.com/abrakorg/abrak-docs)
+
+---
+
+### 🌐 انتخاب زبان · Select Language · اختر اللغة · Dil Seçiniz
+
+[![فارسی - Persian](https://img.shields.io/badge/زبان-فارسی-1e88e5?style=for-the-badge)](./README.fa.md)
+[![English](https://img.shields.io/badge/Language-English-00897b?style=for-the-badge)](./README.en.md)
+[![العربية - Arabic](https://img.shields.io/badge/اللغة-العربية-d81b60?style=for-the-badge)](./README.ar.md)
+[![Türkçe - Turkish](https://img.shields.io/badge/Dil-Türkçe-fb8c00?style=for-the-badge)](./README.tr.md)
+
+*برای مطالعهٔ نسخهٔ کامل و جامع در هر زبان، روی دکمه‌های بالا یا پیوندهای مستقیم زیر کلیک فرمایید:*  
+[**فارسی (Persian Full)**](./README.fa.md) • [**English (English Full)**](./README.en.md) • [**العربية (Arabic Full)**](./README.ar.md) • [**Türkçe (Turkish Full)**](./README.tr.md)
 
 </div>
 
 ---
 
-## فارسی
+## 📌 خلاصهٔ چهارزبانه · Executive Summaries · ملخص تنفيذي · Yönetici Özeti
 
-ابرک یک پلتفرم SaaS بر پایهٔ **اودو ۱۹** است که برای کسب‌وکارهای ایرانی بومی‌سازی شده — نه ترجمه‌ی سطحی، بلکه تطبیق واقعی با الزامات حسابداری، مالیاتی و ارتباطی ایران.
+````carousel
+```markdown
+### 🇮🇷 فارسی — دربارهٔ ابرک
+شرکت **پردازش راهکارهای هوشمند کسب‌وکار (ابرک / ABRAK CO)** ارائه‌دهندهٔ پلتفرم‌های ابری مدیریت یکپارچه منابع سازمانی (ERP) برای شرکت‌های ایرانی، تولیدی، بازرگانی و مجموعه‌های دانش‌بنیان است.
 
-**چه چیزی را پوشش می‌دهیم**
+- **پلتفرم اصلی:** اودو ۱۹ (Odoo 19) بر بستر ابری چندمستاجری (Multi-Tenant SaaS) در [abrak.org](https://abrak.org) با امکان استقرار بر سرورهای اختصاصی.
+- **محصول دوم:** پلتفرم NexERP بر پایهٔ ERPNext در [zdr.ir](https://zdr.ir).
+- **رویکرد مهندسی:** پایبندی به اصل «معماری بدون دستکاری هسته (Zero-Core-Hack)»؛ حفظ پاکیزگی سورس‌کد اصلی اودو و پیاده‌سازی کامل بومی‌سازی‌ها (حسابداری قانونی، سامانهٔ مؤدیان، تقویم جلالی پرو، پیامک، VoIP، درگاه‌های بانکی و راست‌به‌چپ اصیل) در لایهٔ ماژولار.
+- **سامانهٔ مؤدیان:** تمرکز بر آماده‌سازی، اعتبارسنجی الگوها و پیش‌نویس دقیق فاکتور الکترونیکی؛ بدون ارسال خودکار و ناخواسته.
+```
+<!-- slide -->
+```markdown
+### 🇬🇧 English — About Abrak
+**ABRAK CO (Pardazesh-e Rahkar-haye Hooshmand-e Kasb-o-Kar)** engineers and operates enterprise cloud ERP solutions specifically tailored for Iranian commercial, manufacturing, and knowledge-based enterprises.
 
-| حوزه | توضیح |
-|---|---|
-| حسابداری ایران | دفاتر قانونی، ساختار حساب‌ها و گزارش‌های منطبق با استاندارد داخلی |
-| سامانهٔ مؤدیان | ارسال صورتحساب الکترونیکی به سامانهٔ مالیاتی |
-| تقویم شمسی | جلالی در سراسر سیستم، نه فقط در نمایش |
-| پیامک | یکپارچگی با پنل‌های پیامکی ایرانی |
-| تلفن ابری | مرکز تماس و VoIP با اپراتورهای داخلی |
-| درگاه پرداخت | اتصال به درگاه‌های بانکی ایران |
-| حمل‌ونقل | اتصال به شرکت‌های پست و پیک داخلی |
-| فروشگاه‌ساز | اتصال به ووکامرس و بازارگاه‌های ایرانی |
+- **Flagship Solution:** Turnkey multi-tenant SaaS based on **Odoo 19** on Kubernetes at [abrak.org](https://abrak.org), alongside private/dedicated on-premise deployments.
+- **Complementary Platform:** The **NexERP** suite, built upon Frappe / ERPNext at [zdr.ir](https://zdr.ir).
+- **Core Engineering:** Strict **Zero-Core-Hack** methodology — keeping upstream engine code pristine while delivering robust localized accounting, Jalali Pro calendar, domestic telephony, payment gateways, and RTL typography via clean modular addons.
+- **Tax Compliance (Moadian):** Structured drafting, schema validation, and preparation of electronic invoices with a strict zero-automatic-submission policy.
+```
+<!-- slide -->
+```markdown
+### 🇸🇦 العربية — نبذة عن أبرك
+شركة **معالجة الحلول الذكية للأعمال (أبرك / ABRAK CO)** مطور رائد لمنصات إدارة موارد المؤسسات (ERP) السحابية المخصصة للمؤسسات والشركات القائمة على المعرفة (دانش‌بنیان).
 
-**راست‌به‌چپ واقعی.** رابط کاربری، گزارش‌ها و اسناد چاپی همگی برای فارسی طراحی شده‌اند.
+- **المنصة الأساسية:** أودو 19 (Odoo 19) كخدمة سحابية متعددة المستأجرين (Multi-Tenant SaaS) مدارة عبر Kubernetes على [abrak.org](https://abrak.org)، مع خيارات الخوادم المخصصة.
+- **المنصة الرديفة:** منظومة **NexERP** المبنية على إطار العمل ERPNext على [zdr.ir](https://zdr.ir).
+- **المبدأ الهندسي:** التزام قاطع بمعيار «عدم المساس بالنواة (Zero-Core-Hack)» مع تعريب متكامل في المحاسبة القانونية، التقويم الجلالي (Jalali Pro)، الفواتير الضريبية، بوابات الدفع وشبكات الاتصالات والاتجاه RTL.
+- **نظام الفوترة الإلكترونية (مؤديان):** تدقيق وإعداد وتجهيز مسودات الفواتير الرسمية؛ دون أي إرسال تلقائي عشوائي.
+```
+<!-- slide -->
+```markdown
+### 🇹🇷 Türkçe — Abrak Hakkında
+**ABRAK CO (Pardazesh-e Rahkar-haye Hooshmand-e Kasb-o-Kar)**, İran pazarındaki sanayi, ticaret ve Ar-Ge odaklı (Danış-bünyan) kurumlar için kurumsal bulut ERP çözümleri tasarlayan ve işleten bir bilişim şirketidir.
+
+- **Ana Platform:** [abrak.org](https://abrak.org) üzerinde Kubernetes tabanlı çok kiracılı (Multi-Tenant SaaS) **Odoo 19** platformu ve kurumlara özel adanmış sunucu dağıtımları.
+- **Alternatif Platform:** Frappe / ERPNext mimarisini tercih eden kuruluşlar için [zdr.ir](https://zdr.ir) üzerindeki **NexERP** platformu.
+- **Mühendislik İlkesi:** **Sıfır Çekirdek Müdahalesi (Zero-Core-Hack)** standardı; Odoo çekirdeğine dokunmadan yasal muhasebe, Celali (Jalali Pro) takvimi, Moadian e-fatura altyapısı, ödeme geçitleri ve yerel RTL desteğini modüler katmanlarla sunar.
+- **Moadian Yasal Uyum:** Elektronik fatura verilerini hazırlar, doğrular ve taslak olarak düzenler; mali yetkililerin açık onayı olmadan otomatik bildirim yapmaz.
+```
+````
 
 ---
 
-## English
+## 🏛️ معماری سطح بالا · High-Level Architecture
 
-Abrak is an **Odoo 19** based SaaS platform localized for Iranian businesses. Localization here means regulatory and infrastructural adaptation — Iranian accounting standards, electronic tax invoicing, the Jalali calendar as a first-class citizen, and integration with domestic SMS, telephony, payment and logistics providers — not just a translated interface.
-
-**What we build**
-
-- Iranian statutory accounting and reporting for Odoo
-- Electronic invoicing for the national tax system (Moadian)
-- Jalali calendar throughout the stack, not merely in display widgets
-- Connectors for domestic SMS panels, VoIP operators, payment gateways and couriers
-- Genuine right-to-left support across UI, reports and printed documents
+```
++-----------------------------------------------------------------------------------+
+|                        Interface & Access Layer / لایهٔ دسترسی                    |
+|      Web Portals (abrak.org, zdr.ir) · Native RTL · Abrak AI & MCP Tooling        |
++-----------------------------------------------------------------------------------+
+                                         │
++-----------------------------------------------------------------------------------+
+|                  Business Logic & Addons / لایهٔ منطق و افزونه‌ها                 |
+|            Upstream Odoo 19 Engine + Modular Localization Ecosystem               |
+|      Statutory Accounting · Jalali Calendar Pro · Moadian Draft Prep · Telecom    |
++-----------------------------------------------------------------------------------+
+                                         │
++-----------------------------------------------------------------------------------+
+|                   Data Isolation Layer / لایهٔ جداسازی داده‌ها                   |
+|           Database-Level Tenant Separation · Dedicated Storage Schemas            |
+|                     Zero-Core-Hack Standard for Frictionless Lifecycle            |
++-----------------------------------------------------------------------------------+
+                                         │
++-----------------------------------------------------------------------------------+
+|                 Cloud Orchestration & BDR / زیرساخت ابری و تاب‌آوری              |
+|          Kubernetes Container Infrastructure · Multi-Tenant & Dedicated VPS       |
+|       Scheduled Cold & Hot Backup Cycles · Documented Disaster Recovery Playbooks |
++-----------------------------------------------------------------------------------+
+```
 
 ---
 
-## مستندات · Documentation
+## 🗺️ نقشهٔ مخازن و محصولات · Product & Repository Ecosystem
 
-مستندات رسمی در چهار زبان منتشر می‌شود:
-Official documentation is published in four languages:
+> **نکتهٔ دسترسی:** تمامی مخازن اختصاصی کد سورس بر پایهٔ توافق‌نامه‌های رسمی همکاری فنی و تجاری در دسترس قرار می‌گیرند.  
+> **Access Notice:** Core product repositories are private commercial assets. Access is granted under formal technical partnership agreements.
 
-**[فارسی](https://github.com/abrakorg/abrak-docs/tree/main/fa)** · **[English](https://github.com/abrakorg/abrak-docs/tree/main/en)** · **[العربية](https://github.com/abrakorg/abrak-docs/tree/main/ar)** · **[پښتو](https://github.com/abrakorg/abrak-docs/tree/main/ps)**
+| مخزن / Repository | شرح کارکرد / Scope & Functionality | وضعیت دسترسی / Access |
+|---|---|---|
+| `abrak-odoo-addons` | افزونه‌های جامع سازمانی اودو ۱۹ (حسابداری ایران، مالیات، بومی‌سازی و ابزارهای ابری) / Core enterprise Odoo 19 addons | مخزن خصوصی؛ دسترسی بر پایهٔ همکاری / Private |
+| `abrak-odoo-jalali-pro` | موتور تجاری تقویم شمسی جلالی برای نسخه‌های استاندارد اودو / Commercial Jalali calendar addon | مخزن عمومی / Public |
+| `abrak-calendar-pro` | بستهٔ تجاری تقویم شمسی سازگار با نسخه‌های ۱۴ تا ۱۹ اودو / Commercial calendar for Odoo 14–19 | مخزن خصوصی؛ دسترسی بر پایهٔ همکاری / Private |
+| `abrak-enterprise-governance` | ابزارهای حاکمیت شرکتی و انطباق فرآیندی در اودو / Enterprise governance and compliance modules | مخزن خصوصی؛ دسترسی بر پایهٔ همکاری / Private |
+| `abrak-odoo-hub-connector-pro` | هاب مرکزی یکپارچه‌سازی سامانه‌های جانبی با اودو / Central integration hub connector | مخزن خصوصی؛ دسترسی بر پایهٔ همکاری / Private |
+| `abrak-connector-php` | کیت توسعهٔ نرم‌افزار و کلاینت PHP برای ارتباط با API ابرک / PHP SDK and API client | مخزن خصوصی؛ دسترسی بر پایهٔ همکاری / Private |
+| `abrak-connector-python` | کیت توسعهٔ نرم‌افزار و کلاینت Python برای توسعه‌دهندگان / Python SDK and API client | مخزن خصوصی؛ دسترسی بر پایهٔ همکاری / Private |
+| `abrak-landing` | پورتال وب و صفحهٔ معرفی رسمی ابرک / Official corporate landing and portal | مخزن خصوصی؛ دسترسی بر پایهٔ همکاری / Private |
+| `abrak-docs` | مستندات رسمی چهارزبانه و راهنماهای استقرار پلتفرم / Official multi-language documentation | مخزن عمومی / Public |
+| `chelopaz` | سامانهٔ تخصصی مدیریت کیفیت (QMS) بر مبنای HACCP و ISO 22000 در کترینگ صنعتی / Catering QMS | مخزن خصوصی؛ دسترسی بر پایهٔ همکاری / Private |
+| پلتفرم هوش مصنوعی ابرک | ابزارهای تعاملی AI، پشتیبانی زبان و تقویم، رابط‌های MCP و خطوط پردازشی / Enterprise AI platform | مخازن خصوصی؛ دسترسی بر پایهٔ همکاری / Private |
+
+> *حفاظت از زیرساخت:* مخازن عملیات و زیرساخت داخلی سازمان به دلایل امنیتی در فهرست‌های عمومی درج نمی‌شوند و تحت تدابیر ایزولهٔ امنیتی اداره می‌گردند.
 
 ---
 
-## ارتباط · Contact
+## 🛡️ امنیت و خط‌مشی‌های مهندسی · Security & Engineering Standards
 
-- وب‌سایت · Website — [abrak.org](https://abrak.org)
-- پشتیبانی · Support — support@abrak.org
-- فروش · Sales — hello@abrak.org
+- **بازبینی جامع کد (Code Review):** تمامی تغییرات پیش از ادغام در شاخه‌های اصلی مورد ارزیابی دقیق ساختاری، کارایی و امنیتی قرار می‌گیرند.
+- **تست‌های خودکار و مستمر:** اجرای آزمون‌های یکپارچگی پیش از انتشار هر نسخه بر روی محیط‌های پروداکشن.
+- **اصل کمترین اختیارات (Least Privilege):** تفکیک سطح دسترسی سرویس‌ها، رمزنگاری کلیدها و کنترل دقیق مجوزهای کاربری.
+- **فرآیند انتشار مبتنی بر بکاپ اول:** تهیه و راستی‌آزمایی نسخهٔ پشتیبان پیش‌نیاز هرگونه تغییر یا به‌روزرسانی روی زیرساخت مشتریان است.
+- **سیاست انطباق مالیاتی:** سیستم ابرک صرفاً به عنوان ابزار محاسباتی و تهیه‌کنندهٔ پیش‌نویس عمل می‌کند؛ هیچ داده‌ای بدون تایید مستقیم کارشناسان مالی به سامانهٔ مؤدیان ارسال نمی‌شود.
+
+---
+
+## 🤝 مسیر همکاری و ارتباط · Collaboration & Inquiries
+
+برای درخواست همکاری تجاری، اتصال سامانه‌ها، ارزیابی محصولات سازمانی یا درخواست دسترسی به مخازن خصوصی، از درگاه رسمی اقدام فرمایید:  
+To request enterprise access, technology partnerships, or private repository evaluations, please contact us exclusively via:
+
+👉 [**abrak.org**](https://abrak.org)
+
+---
 
 <div align="center">
-<sub>ساخته‌شده در ایران · Built in Iran</sub>
+
+`Odoo 19` · `ERPNext` · `NexERP` · `SaaS` · `Multi-Tenant` · `Kubernetes` · `Iran Localization` · `Jalali Calendar Pro` · `RTL Native` · `Moadian Invoicing Prep`
+
+<sub>ساخته‌شده در ایران · Engineered in Iran</sub>
+
 </div>
